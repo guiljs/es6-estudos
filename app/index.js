@@ -1,8 +1,7 @@
-let a = 'hello';
+const array = [1,2,3];
 
-console.log(a);
+array.push(4); //Ok I can manipulate
 
-{  //A standalone block
-    let salary = 90000;
-}
-console.log(salary);
+console.log(array);
+
+//array = [1]; //Error! It is a const.

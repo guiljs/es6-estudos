@@ -1,7 +1,10 @@
-const array = [1,2,3];
+var a = 'hello';
+var b = 'world';
+var c = a + ' ' + b;
+console.log(c);
 
-array.push(4); //Ok I can manipulate
+let d = `hello ${b}`; //Literals!
+console.log(d);
 
-console.log(array);
-
-//array = [1]; //Error! It is a const.
+let e = `${a} world`;
+console.log(e);

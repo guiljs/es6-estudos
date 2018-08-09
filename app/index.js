@@ -1,2 +1,8 @@
-console.log('Hello WebPack!');
-console.log('Hello in the Browser!');
+let a = 'hello';
+
+console.log(a);
+
+{  //A standalone block
+    let salary = 90000;
+}
+console.log(salary);

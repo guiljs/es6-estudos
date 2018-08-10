@@ -10,8 +10,8 @@ let lengths = [3, 7, 5];
 let multiple = 8;
 
 const scale = (multiple) => {
-    lengths.map(x => x*multiple);
+    let realLifeLengths = lengths.map(x => x*multiple);
     
-  return lengths; // TODO fill out the rest;
+  return realLifeLengths; // TODO fill out the rest;
 };
 scale(8);

@@ -1,5 +1,11 @@
-function print(...z) {
-    console.log(z);
-}
+let fellowship = ["Frodo", "Gandalf", "Aragorn"];
 
-print(1,2,3,4,5,6,7,8,9,0);
+let [hobbit, wizard, ranger] = fellowship;
+
+console.log(hobbit, wizard, ranger);
+
+
+
+let c = [100, 200, 300, 400, 500];
+let [a, ...b] = c;
+console.log(a, b);

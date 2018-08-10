@@ -1,7 +1,6 @@
-let wizard = { magical: true, power: 10 };
-// let magical = wizard.magical;
-// let power = wizard.power;
+let magical = true;
+let power = 2;
 
-// let { magical, power } = wizard;
-let { power, magical } = wizard; //Doesn't matter the order because ES6 will bind the name of properties.
+let ranger = { magical: false, power: 9 };
+({ magical, power } = ranger);
 console.log(magical, power);

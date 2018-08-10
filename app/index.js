@@ -1,12 +1,6 @@
-this.a = 25;
+let points = [10, 20, 30];
 
-let print = function(){
-    this.a = 50;
-    console.log('this.a', this.a);
-}
 
-let arrowPrint = () =>{
-    console.log('this.a in arrowPrint',this.a);
-}
-print();
-arrowPrint();
+points = points.map(element => element + 1);
+
+console.log(points);

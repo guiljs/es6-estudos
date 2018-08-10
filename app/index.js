@@ -1,17 +1,9 @@
-// let points = [10, 20, 30];
+// let isPassing = (grade) => {
+//     return grade >= 90;
+// }
 
+let scores = [90, 85, 67, 71, 70, 55, 92];
 
-// points = points.map(element => element + 1);
+let passing = scores.filter(x => x >= 70);
 
-// console.log(points);
-
-
-let lengths = [3, 7, 5];
-let multiple = 8;
-
-const scale = (multiple) => {
-    let realLifeLengths = lengths.map(x => x*multiple);
-    
-  return realLifeLengths; // TODO fill out the rest;
-};
-scale(8);
+console.log(passing);

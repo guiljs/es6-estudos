@@ -1,10 +1,5 @@
-var a = 'hello';
-var b = 'world';
-var c = a + ' ' + b;
-console.log(c);
+function print(...z) {
+    console.log(z);
+}
 
-let d = `hello ${b}`; //Literals!
-console.log(d);
-
-let e = `${a} world`;
-console.log(e);
+print(1,2,3,4,5,6,7,8,9,0);

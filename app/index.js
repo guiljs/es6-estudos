@@ -1,17 +1,12 @@
-import Entity from './entity';
+import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
 
-class Hobbit extends Entity {
-    constructor(name, height){
-        super(name, height);
-    }
-
-    greet(){
-        console.log(`Hello! I'm ${this.name} from the Shire!`);
+class App extends Component {
+    render() {
+        return (
+            <div>React JS and JSX in action!</div>
+        )
     }
 }
 
-let Legolas = new Entity("Legolas",10);
-let Frodo = new Hobbit("Frodo Baggins", 4.5);
-
-Legolas.greet();
-Frodo.greet();
+ReactDOM.render(<App></App>, document.getElementById('root'));

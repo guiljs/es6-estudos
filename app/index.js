@@ -1,5 +1,13 @@
-// import { add, multiply } from './calculator.js';
-// console.log(add(1, 1));
+class Entity {
+    constructor(name, height) {
+        this.name = name;
+        this.height = height;
+    }
 
-import multiply from './calculator';
-console.log(multiply(2, 2));
+    greet() {
+        console.log(`Hi! I'm ${this.name} from middle earth!`);
+    }
+}
+
+let Merry = new Entity("Merry", 4.6);
+Merry.greet();
